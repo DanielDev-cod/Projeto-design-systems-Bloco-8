@@ -1,8 +1,7 @@
 @charset "UTF-8";
-body{
-    background-color: blue;
+:root{
+    --cinza: #F8F5FF; 
+    --lizas: #845EF7;
+    --Form:  #30373E;
 }
-h1{
-    color: brown;
-    font-size: 50px;
-}
+
