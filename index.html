@@ -6,29 +6,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/Logo system/Frame 86.svg" type="image/x-icon">
     <title>DESIGN SYSTEMS</title>
-    <style>
-        nav{
-            display: flex;
-            justify-content: space-between;
-        }
-        .Menu{
-            display: none;
-        }
-        @media (max-width: 800px) {
-            .Menu{
-                display: block;
-            }
-            ul{
-                display: none;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
         <nav>
-            <img class="Menu" src="assets/Menu.svg" alt="barra Menu">
-            <img src="assets/Logo system/Frame 86.svg" alt="Logo da SYSTEMS">
+            <img class="Menu" src="assets/Menu.svg" alt="barra Menu" class="menu__barra">
+            <img src="assets/Logo system/Frame 86.svg" alt="Logo da SYSTEMS" >
             <ul>
                 <li><a href="#"></a>Sobre nós</li>
                 <li><a href="#"></a>Como trabalhamos</li>
@@ -71,10 +54,12 @@
             </div>
             
         </section>
-
+ 
+         <!-- aqui como trabalhamos -->
         <section class="trabalhamos">
             <div>
                 <h1>Como trabalhamos</h1>
+                <img src="assets/Banners/Banner 3.png" alt="">
                 <p>Realizamos uma consulta</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -85,17 +70,98 @@
                 <span>Contrate-nos</span>
             </div>
         </section>
-
+        <!-- termina aqui como trabalhamos -->
+        
+        <!-- aqui começa as vantagens -->
         <section class="Vantagens">
             <div class="Globo">
-                <img src="assets/Vantagens/Globo.svg" alt=" Globo">
+                <img src="assets/Vantagens/Globo.svg" alt="Globo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             </div>
 
-            <div class="">
-
+            <div class="Anotações">
+               <img src="assets/Vantagens/Anotações.svg" alt="Anotações">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="tempo">
+                <img src="assets/Vantagens/Tempo.svg" alt="Tempo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+             </div>
+             <div class="tempo">
+                <img src="assets/Vantagens/Tempo.svg" alt="Tempo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+             </div>
+             <div class="Localização">
+                <img src="assets/Vantagens/Localização.svg" alt="Localização">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+             </div>
+             <div class="Avião">
+                <img src="assets/Vantagens/Avião.svg" alt="Avião">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             </div>
+             <div class="Calentario">
+                <img src="assets/Vantagens/Calentario.svg" alt="Calentario">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+             </div>
+             <div class="globo-geral">
+                <img src="assets/Vantagens/Globo Geral.svg" alt="globo geral">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             </div>
+        </section>
+        <!-- termina aqui as vantagens -->
+        
+        <!-- Aqui Começa os serviços -->
+        <section class="Serviços">
+            <h1>Serviços</h1>
+            <div>
+                <img src="assets/Serviços/Serviços 1.png" alt="Mulher trabalhando">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 2.png" alt="Carro">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 3.png" alt="Homen trabalhando">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 4.png" alt="Uma Parede">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 4.png" alt="Uma Parede">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 5.png" alt="Metal">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
+            </div>
+            <div>
+                <img src="assets/Serviços/Serviços 6.png" alt="Mulher">
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
             </div>
         </section>
+        <!-- termina aqui os serviços -->
+
+        <!-- aqui começa o formulario -->
+        <form action="">
+            <h1>Envie sua aplicação</h1>
+        </form>
     </main>
 </body>
 </html>
