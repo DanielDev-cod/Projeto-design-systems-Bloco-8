@@ -74,39 +74,37 @@
         
         <!-- aqui começa as vantagens -->
         <section class="Vantagens">
-            <div class="Globo">
-                <img src="assets/Vantagens/Globo.svg" alt="Globo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <h1 class="title">Vantagens</h1>
+            <div class="cards">
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Globo.svg" alt="Globo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Anotações.svg" alt="Anotações">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Tempo.svg" alt="Tempo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Localização.svg" alt="Localização">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Avião.svg" alt="Avião">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Calentario.svg" alt="Calentario">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                </div>
+                <div class="cards__item">
+                    <img src="assets/Vantagens/Globo Geral.svg" alt="globo geral">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
             </div>
-
-            <div class="Anotações">
-               <img src="assets/Vantagens/Anotações.svg" alt="Anotações">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="tempo">
-                <img src="assets/Vantagens/Tempo.svg" alt="Tempo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-             </div>
-             <div class="tempo">
-                <img src="assets/Vantagens/Tempo.svg" alt="Tempo">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-             </div>
-             <div class="Localização">
-                <img src="assets/Vantagens/Localização.svg" alt="Localização">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-             </div>
-             <div class="Avião">
-                <img src="assets/Vantagens/Avião.svg" alt="Avião">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-             </div>
-             <div class="Calentario">
-                <img src="assets/Vantagens/Calentario.svg" alt="Calentario">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
-             </div>
-             <div class="globo-geral">
-                <img src="assets/Vantagens/Globo Geral.svg" alt="globo geral">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-             </div>
         </section>
         <!-- termina aqui as vantagens -->
         
@@ -138,12 +136,6 @@
                 <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
             </div>
             <div>
-                <img src="assets/Serviços/Serviços 4.png" alt="Uma Parede">
-                <p>Lorem ipsum</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <button><img src="assets/Serviços/Flecha  40px.svg" alt=""></button>
-            </div>
-            <div>
                 <img src="assets/Serviços/Serviços 5.png" alt="Metal">
                 <p>Lorem ipsum</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -159,17 +151,42 @@
         <!-- termina aqui os serviços -->
 
         <!-- footer -->
-        <section>
+        <footer>
             <h1>Envie sua aplicação</h1>
             <form action="">
               <input type="text" name="idnome" placeholder="Nome*"> <br>
-              <input type="text" name="idemail" placeholder="Email*"> <br>
               <select name="idCidade" id="Cidade"> <br>
                 <option value="Cidade">Cidade</option>
-              </select> <br>
-              <input type="date" name="iddatee" id="data" placeholder="Data*"> 
+              </select> <br> 
+              <input type="date" name="iddatee" id="data" placeholder="Data*"> <br>
+              <input type="text" name="idemail" placeholder="Email*"> <br>
+              <input type="text" name="idmensagem" placeholder="Mensagem"> <br>
+              <input type="checkbox" name="checkbox" id="idcheckbox">
+              <label for="idcheckbox">Concordo com a Política de privacidade</label> <br>
+              <button>Concluido</button>
             </form>
-        </section>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <img src="assets/Frame 12603.png" alt="Logo system">
+
+            <div class="footer__menu">
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Como trabalhamos</a></li>
+                    <li><a href="#">vantagens</a></li>
+                    <li><a href="#">serviços</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <img src="assets/Redes Sociais/Instragram.png" alt="Instragram">
+                <img src="assets/Redes Sociais/Facebook.png" alt="">
+
+            </div>
+
+        </footer>
         
     </main>
 </body>
