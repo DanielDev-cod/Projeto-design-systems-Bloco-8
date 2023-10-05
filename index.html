@@ -9,6 +9,11 @@
 </head>
 <body>
     <header>
+        <div class="form-pesquisa">
+           <input type="text" placeholder="O que está procurando?">
+           <button><img src="assets/Frame 27.png" alt="Pesquisa"></button>
+           <button><img src="assets/closed_search.png" alt="Um X"></button>
+        </div>
         <nav>
             <img class="Menu" src="assets/Menu.svg" alt="barra Menu" class="menu__barra">
             <img src="assets/Logo system/Frame 86.svg" alt="Logo da SYSTEMS" >
@@ -24,7 +29,7 @@
     </header>
     <main>
 
-        <section>
+        <section class="container">
             <div class="banner1">
                 <h1>Projetos de alta complexidade</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -32,7 +37,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="content">
             <div class="sobre-nos">
                 <h1>Sobre nós</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -42,7 +47,7 @@
 
             <img src="assets/Banners/Banner 2.png" alt="Arquiteto-tecnico">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-           <span>Mais</span>
+           <button><span>Mais</span></button>
 
             <div class="Arquiteto">
                 <img src="assets/Sobre-Nos/caixa.svg" alt="arquitetura e decoração">
@@ -57,8 +62,8 @@
  
          <!-- aqui como trabalhamos -->
         <section class="trabalhamos">
-            <div>
-                <h1>Como trabalhamos</h1>
+            <div class="">
+                <h1 class="title">Como trabalhamos</h1>
                 <img src="assets/Banners/Banner 3.png" alt="">
                 <p>Realizamos uma consulta</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -66,8 +71,8 @@
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 
-                <span>Mais</span>
-                <span>Contrate-nos</span>
+                <button><span>Mais</span></button>
+                <button><span>Contrate-nos</span></button>
             </div>
         </section>
         <!-- termina aqui como trabalhamos -->
@@ -110,7 +115,7 @@
         
         <!-- Aqui Começa os serviços -->
         <section class="Serviços">
-            <h1>Serviços</h1>
+            <h1 class="title">Serviços</h1>
             <div>
                 <img src="assets/Serviços/Serviços 1.png" alt="Mulher trabalhando">
                 <p>Lorem ipsum</p>
@@ -152,19 +157,31 @@
 
         <!-- footer -->
         <footer>
-            <h1>Envie sua aplicação</h1>
-            <form action="">
-              <input type="text" name="idnome" placeholder="Nome*"> <br>
-              <select name="idCidade" id="Cidade"> <br>
-                <option value="Cidade">Cidade</option>
-              </select> <br> 
-              <input type="date" name="iddatee" id="data" placeholder="Data*"> <br>
-              <input type="text" name="idemail" placeholder="Email*"> <br>
-              <input type="text" name="idmensagem" placeholder="Mensagem"> <br>
-              <input type="checkbox" name="checkbox" id="idcheckbox">
-              <label for="idcheckbox">Concordo com a Política de privacidade</label> <br>
-              <button>Concluido</button>
-            </form>
+            <h1 class="title">Envie sua aplicação</h1>
+           <div class="form__cadastro">
+            <div class="form__campo">
+                <input type="text" name="Nome" id="idNome" placeholder="Nome*">
+            </div>
+            <div class="form__campo">
+                <select name="Cidade">
+                    <option value="Cidade" disabled selected>Cidade</option>
+                </select>
+            </div>
+            <div class="form__campo">
+               <input type="date" name="date" id="idData">
+            </div>
+            <div class="form__campo">
+                <input type="email" name="Nome" id="idEmail" placeholder="Email*">
+            </div>
+            <div class="form__campo">
+                <input type="text" name="Nome" id="idMensagem" placeholder="Mensagem">
+            </div>
+            <div class="form__campo">
+                <input type="checkbox"  id="idcheckbox">
+                <label for="#">Concordo com a Política de privacidade</label>
+            </div>
+            <button>Concluido</button>
+           </div>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             
