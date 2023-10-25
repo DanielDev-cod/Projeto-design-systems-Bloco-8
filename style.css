@@ -14,9 +14,31 @@
     --logo3: #E1D4FF;
     --logo4: #F8F5FF;
 }
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    /* height: 64px; */
+    padding:  32px;
+    background-color: var(--logo4);
+    border-radius: 0px 0px 32px 32px;
+}
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    width: 290px;
+    align-items: center;
+}
+/* .menu__barra{
+    width: 24px;
+    height: 18px;
+} */
+.form-pesquisa{
+    display: none;
+}
+
 
