@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
 
 :root {
   --preto: #000000;
@@ -14,138 +14,66 @@
   --logo3: #e1d4ff;
   --logo4: #f8f5ff;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 header {
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 32px 32px;
   background-color: var(--logo4);
-  border-radius: 0 0 32px 32px;
 }
 
-button {
-  appearance: none;
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.bnt{
-  border-radius: 10px;
-  padding: 13px 32px;
-  max-width: 200px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  align-items: center;
-  color: var(--Branco);
-  background-color: var(--logo2);
-}
-.nav-menu {
+header .nav-menu {
   display: flex;
-  padding: 20px 10px 20px 10px;
+  justify-content: space-between;
+  margin-inline: 75px;
+}
+
+.logo-system {
+  margin: 21px 0 21px;
+}
+
+.search-pesquisa {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  margin: 21px 0 21px;
+}
+
+nav > ul {
+  display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: space-around;
+  gap: 40px;
+  list-style-type: none;
   cursor: pointer;
 }
 
-.card{
-  width: 420px;
-  height: 360px;
-  margin-top: 15px;
-  margin-left: 15px;
-  background-image: url(assets/Banners/Banner\ 1.png);
-  border-radius: 24px 24px 24px 24px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.border-header{
+  border: 1px solid var(--cinsa3);
+  padding: 18px 20px;
+  border-radius: 8px;
+  margin: 21px 0 21px;
 }
 
-.card-info{
-  padding: 20px;
-}
-
-.card-info > h1{
-  margin-top: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.card-info > p{
-  max-width: 30ch;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.car-btn{
-  border-radius: 10px;
-  padding: 13px 32px;
-  max-width: 200px;
-  margin-top: 24px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  align-items: center;
-  color: var(--Branco);
-  background-color: var(--logo2);
-}
-
-
-
-.content{
-  max-width: 800px;
-  background-color: var(--Branco2);
-}
-
-.content  h2{
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-bottom: 15px;
+ul > li {
   color: var(--preto);
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
 }
 
-.content p {
-  margin-top: 17px;
-  margin-left: 15px;
-  max-width: 290px;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
-  line-height: 180%;
-}
-
-.tecnico img{
-  width: 430px;
-  height: 350px; 
-  margin-top: 30px;
-  margin-left: 15px;
+.card-banner{
+  width: 1250px;
+  height: 600px;
+  border-radius: 32px;
+  margin-top: 50px;
+  margin-inline: 75px;
+  background-image: url(assets/Banners/Banner\ 1.png);
   background-size: cover;
 }
-
-.tecnico p{
-  margin-left: 15px;
-  font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  line-height: 180%;
-}
-
-.bnt-2{
-  gap: 10px;
-  border: 1px solid;
-  border-radius: 8px;
-  color: var(--logo2);
-  background-color: var(--Branco);
-}
-
