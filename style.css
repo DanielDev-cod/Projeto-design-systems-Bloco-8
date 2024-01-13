@@ -22,147 +22,93 @@
 img{
   max-width: 100%;
 }
-header {
+
+/* button{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  cursor: pointer;
+} */
+header{
   width: 100%;
-  height: 100px;
-  border-radius: 0px 0px 32px 32px;
+  height: 95px;
+  border-radius: 0 0 32px 32px;
   background-color: var(--logo4);
 }
 
-header .nav-menu {
+.nav-menu{
   display: flex;
   justify-content: space-between;
-  margin-inline: 75px;
-}
-
-.logo-system {
-  margin: 21px 0 21px;
-}
-
-.search-pesquisa {
-  width: 24px;
-  height: 24px;
-  margin-left: auto;
-  margin: 21px 0 21px;
-}
-
-nav > ul {
-  display: flex;
-  text-align: center;
   align-items: center;
-  gap: 40px;
-  list-style-type: none;
+  margin-inline: 15px;
+  padding-top: 16px;
+  margin-bottom: 16px;
   cursor: pointer;
 }
 
-.border-header {
-  border: 1px solid var(--cinsa3);
-  padding: 18px 20px;
-  border-radius: 8px;
-  margin: 21px 0 21px;
-}
-
-ul > li {
-  color: var(--preto);
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.card-banner {
-  width: 90vw;
-  height: 650px;
-  border-radius: 32px;
-  margin-top: 50px;
-  margin-inline: 75px;
-  background-image: url(assets/Banners/Banner\ 1.png);
+.container{
+  max-width: 100%;
+  height: 340px;
+  background-position: 55% top;
+  overflow: hidden;
+  margin-inline: 15px;
+  margin-top: 20px;
+  border-radius: 24px;
+  background-image: url("assets/Banners/Banner\ 1.png");
   background-size: cover;
 }
 
-.card-info {
-  margin-inline: 80px;
+.card-info{
+  margin-top: 20px ;
+  margin-inline: 15px;
 }
 
-.card-info  h1 {
-  /* width: 837px; */
-  padding-top: 100px;
-  font-family: "Montserrat", sans-serif;
-  color: var(--preto);
-  font-size: 72px;
+.card-info > h1{
+  width: 260px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
   font-weight: 800;
-  /* margin-top: 100px; */
-  /* margin-inline: 80px; */
   line-height: 120%;
 }
 
-.card-info p {
-  width: 680px;
-  margin-top: 24px;
-  color: var(--preto);
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 130%;
-  letter-spacing: 0.24px;
+.card-info > p{
+  width: 201px;
+  margin-top: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.14px;
 }
 
-.car-btn {
-  background-color: var(--logo2);
-  color: var(--Branco);
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+.car-btn{
+  margin-top: 26px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
   font-weight: 700;
-  padding: 18px 32px;
+  line-height: 18px;
+  color: var(--Branco);
+  background-color: var(--logo2);
+  padding: 13px 32px;
+  border: 0;
+  outline: 0;
   border-radius: 8px;
-  margin-top: 64px;
-  border: none;
-  outline: none;
   cursor: pointer;
 }
 
 .background-cinza{
+  margin-top: 26px;
   background-color: var(--Branco2);
-  margin-top: 50px;
 }
+
 .servicos{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  margin-inline: 75px;
+  margin-inline: 15px;
 }
 
-
-.titulo{
-  grid-column: 1/3 ;
-  margin-top: 50px;
-  color: var(--preto);
-  font-family: "Montserrat", sans-serif;
-  font-size: 48px;
-  font-weight: 400; 
-}
-
-.text-principal{
-  grid-column: 1;
-  margin-top: 19px;
-  color: var(--preto);
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+.servicos >h2{
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
   font-weight: 400;
-
+  line-height: 120%;
 }
-
-.servico-consultoria{
-  grid-column: 1;
-}
-
-.serviço-arquiteto{
-  grid-column: 1;
-}
-
-.lorem_conteudo{
-  grid-column: 2;
-  grid-row: 2/5;
-}
-
 
