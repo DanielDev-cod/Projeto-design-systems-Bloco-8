@@ -6,8 +6,8 @@
   --preto: #000000;
   --Branco: #ffffff;
   --cinsa: #30373e;
-  --cinsa2: #adb5bd;
-  --cinsa3: #d3d7db;
+  --cinza2: #adb5bd;
+  --cinza3: #d3d7db;
   --Branco2: #fafafa;
   --logo: #5a27f2;
   --logo2: #845ef7;
@@ -115,7 +115,6 @@ header{
 
 .servicos >p{
   padding-top: 17px;
-  text-align: justify;
   color: var(--preto);
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
@@ -124,11 +123,54 @@ header{
 }
 
 .lorem_conteudo{
-  width: 100%;
-  margin-top: 24px;
+  display: grid;
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.lorem_conteudo >h3{
-  
+.lorem_conteudo > *{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
+
+.lorem_conteudo > div{
+  margin-top: 185px;
+  height: min-content;
+  align-self: end;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: var(--Branco);
+  border: 1px solid var(--cinza3)
+}
+
+.lorem_conteudo > div > h3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 180%; /* 25.2px */
+  letter-spacing: 0.14px;
+}
+
+.lorem_botao{
+  width: 100%;
+  margin-block: 24px;
+  padding: 13px;
+  border-radius: 8px;
+  border: 1px solid var(--logo2);
+  outline: none;
+  background-color: var(--Branco);
+  color: var(--logo2);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
 
