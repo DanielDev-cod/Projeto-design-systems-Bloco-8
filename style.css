@@ -166,6 +166,45 @@ header{
   font-size: 14px;
   font-weight: 700;
 }
+.servicosCard{
+  width: 355px;
+  height: 320px;
+  margin-top: 26px;
+  border: 1px solid var(--cinza3);
+  border-radius: 20px;
+  background-color: var(--Branco);
+}
+.servicoscenter{
+  margin-top: 17px;
+  margin-inline: 20px;
+}
+.servicoImgcard{
+  width: 130px;
+}
+.servicoTittle{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.servicophagra{
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.container-trabalhamos{
+  background-color: var(--Branco);
+}
+.trabalhamosCard{
+  top: 50px;
+}
+.title{
+  margin-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px;
+  font-weight: 400;
+}
 
 
 
